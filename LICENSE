@@ -1,0 +1,34 @@
+NaviiView for Linux — Freeware License
+
+Copyright (c) 2026 Navii. All rights reserved.
+
+NaviiView for Linux ("the Software") is free of charge.
+
+1. You may use the Software for any purpose, personal or commercial.
+2. You may copy and redistribute the Software in unmodified form, free of
+   charge, including through package repositories and app stores
+   (for example Flathub, the Arch User Repository or AppImage catalogs),
+   provided this license text accompanies it.
+3. You may not modify, reverse engineer, decompile or disassemble the
+   Software, or create derivative works from it, except as permitted by
+   applicable law.
+4. You may not sell the Software or charge for its distribution.
+5. "NaviiView" and "Navii" are names of the author. Redistributions may use
+   them to identify the unmodified Software and for nothing else.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY ARISING FROM THE
+USE OF THE SOFTWARE.
+
+The source code of NaviiView is not published. The comic shown in the
+screenshots is "Give My Regards to Black Jack" by SHUHO SATO, used under its
+free secondary-use terms (https://densho810.com/free/).
+
+---
+
+NaviiView for Linux は無料で使えるフリーウェアです。個人・商用を問わず使えます。
+改変しない形であれば、無料で再配布できます（Flathub・AUR・AppImage の目録など）。
+改変・リバースエンジニアリング・有償での配布はできません。ソースコードは公開していません。
+保証はありません。
