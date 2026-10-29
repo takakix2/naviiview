@@ -1,0 +1,20 @@
+pkgbase = naviiview-bin
+	pkgdesc = Comic viewer for your scans: PDF, zip, rar, 7z, epub and image folders, two pages at a time, straight from your NAS or S3
+	pkgver = 1.1.2
+	pkgrel = 1
+	url = https://naviiview.navii.online/
+	arch = x86_64
+	license = LicenseRef-Freeware
+	depends = webkit2gtk-4.1
+	depends = gtk3
+	provides = naviiview
+	conflicts = naviiview
+	options = !strip
+	source = https://github.com/takakix2/naviiview/releases/download/v1.1.2/NaviiView_1.1.2_amd64.deb
+	source = LICENSE-1.1.2::https://raw.githubusercontent.com/takakix2/naviiview/main/LICENSE
+	source = online.navii.naviiview.metainfo.xml::https://raw.githubusercontent.com/takakix2/naviiview/main/packaging/linux/online.navii.naviiview.metainfo.xml
+	sha256sums = 817a3e8eb4a469704fcf5ecc69c858680f8bb3ad1fc07ddc382a8e4bc3d0047d
+	sha256sums = 12b7ef1808450a160cbeb87699b2f7de93a0cbbe92a59d826a505c1959511796
+	sha256sums = SKIP
+
+pkgname = naviiview-bin
