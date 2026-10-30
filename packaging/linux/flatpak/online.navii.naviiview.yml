@@ -23,8 +23,8 @@ modules:
     buildsystem: simple
     sources:
       - type: file
-        url: https://github.com/takakix2/naviiview/releases/download/v1.1.2/NaviiView_1.1.2_amd64.deb
-        sha256: 817a3e8eb4a469704fcf5ecc69c858680f8bb3ad1fc07ddc382a8e4bc3d0047d
+        url: https://github.com/takakix2/naviiview/releases/download/v1.1.3/NaviiView_1.1.3_amd64.deb
+        sha256: d9bf43e7b809c68265f9c7c9b8c4500de44e05024aabd48d7a7676b6e6daf45d
         only-arches: [x86_64]
         dest-filename: naviiview.deb
       - type: file
