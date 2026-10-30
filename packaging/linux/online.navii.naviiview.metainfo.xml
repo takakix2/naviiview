@@ -81,6 +81,13 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="1.1.3" date="2026-10-30">
+      <url>https://github.com/takakix2/naviiview/releases/tag/v1.1.3</url>
+      <description>
+        <p>Game controller support (beta): pick, open and read with a controller, including the Book Locations tree. Shelf covers are no longer cropped. Only items with a cover can go on the shelf from Book Locations.</p>
+        <p xml:lang="ja">コントローラー操作（ベータ）: 起動画面・本の場所のツリー・読書中をコントローラーで。本棚の表紙を切らずに表示。本の場所から本棚に入れられるのは表紙が出る物だけに。</p>
+      </description>
+    </release>
     <release version="1.1.2" date="2026-10-29">
       <url>https://github.com/takakix2/naviiview/releases/tag/v1.1.2</url>
       <description>
