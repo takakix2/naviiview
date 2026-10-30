@@ -48,7 +48,7 @@ sudo dnf install ./NaviiView-*.x86_64.rpm
 
 ### What it does
 
-- **Your favorites, by cover** — put a book or a folder of volumes on the shelf from the toolbar or from Book Locations. Sort by date added or by name.
+- **Your favorites, by cover** — put a book or a folder of images on the shelf from the toolbar or from Book Locations. Sort by date added or by name.
 - **Reading in spreads** — two-page spread, single page or vertical scroll. Right-to-left and left-to-right. The cover shows on its own; wide two-page artwork is shown as one image. Pages paired the wrong way? Step one page in single-page mode and go back; the book remembers it.
 - **Swipe, keys and zoom** — swipe, arrow keys, pinch or Ctrl/⌘-scroll to zoom.
 - **Books on the network, as they are** — connects directly to SMB (shared folders, NAS) and S3-compatible storage. Only the parts you read are fetched, so large books open in seconds. With S3 on the internet, the same shelf away from home.
@@ -88,7 +88,7 @@ Linux は Ubuntu 22.04 以降（glibc 2.34 以上・WebKitGTK 4.1）。Flathub �
 
 ### できること
 
-- **お気に入りを、表紙で** — 読んでいる本のツールバーや本の場所から本棚へ。入れた順・名前順で並べ替え。巻ごとのフォルダもそのまま。
+- **お気に入りを、表紙で** — 読んでいる本のツールバーや本の場所から本棚へ。入れた順・名前順で並べ替え。画像のフォルダも 1 冊の本として。
 - **見開きで読む** — 見開き / 単ページ / 縦スクロール。右開きと左開き。表紙は 1 ページ目だけで、横長の見開きイラストは 1 枚で。組みがずれた本も、単ページで 1 枚送って見開きに戻せば直ります（本ごとに記憶）。
 - **スワイプも、キーも、拡大も** — スワイプ、矢印キー、ピンチや Ctrl / ⌘＋スクロールでの拡大。
 - **ネットワークの本をそのまま** — SMB（共有フォルダ・NAS）と S3 互換のストレージに直接つなぎます。読む所だけを取りに行くので、大きな本も数秒で開きます。インターネット上の S3 なら、外出先からも同じ本棚を開けます。
