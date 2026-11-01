@@ -10,7 +10,16 @@ finish-args:
   - --socket=wayland
   - --socket=fallback-x11
   - --device=dri
+  # WebKitGTK 2.54 (GNOME 51) shows the previous page for a frame at the end of the page slide when
+  # accelerated compositing is on; the deb on the host's WebKitGTK 2.52 does not. Off until it is understood.
+  - --env=WEBKIT_DISABLE_COMPOSITING_MODE=1
+  # Gamepads (beta): WebKitGTK reads them through libmanette from /dev/input
+  - --device=input
+  # On a Flatpak that does not know the 'input' device, fall back to all devices
+  - --device-if=all:!has-input-device
   - --share=ipc
+  # Keep the screen on during a slideshow (org.freedesktop.ScreenSaver.Inhibit / UnInhibit)
+  - --talk-name=org.freedesktop.ScreenSaver
   # SMB shares and S3-compatible storage are read by the app itself
   - --share=network
   # Books are read where they are (nothing is copied into the app); settings live under ~/.var/app
@@ -23,12 +32,14 @@ modules:
     buildsystem: simple
     sources:
       - type: file
-        url: https://github.com/takakix2/naviiview/releases/download/v1.1.3/NaviiView_1.1.3_amd64.deb
-        sha256: d9bf43e7b809c68265f9c7c9b8c4500de44e05024aabd48d7a7676b6e6daf45d
+        url: https://github.com/takakix2/naviiview/releases/download/v1.1.5/NaviiView_1.1.5_amd64.deb
+        sha256: 8591504622413f46407da73d5add4e62ced9de595b6fdfadc26159e9226dd361
         only-arches: [x86_64]
         dest-filename: naviiview.deb
       - type: file
         path: ../online.navii.naviiview.metainfo.xml
+      - type: file
+        path: fonts-local.conf
     build-commands:
       - ar -x naviiview.deb
       - tar -xf data.tar.gz
@@ -39,3 +50,4 @@ modules:
       - install -Dm644 usr/share/icons/hicolor/32x32/apps/naviiview.png /app/share/icons/hicolor/32x32/apps/online.navii.naviiview.png
       - mkdir -p /app/share/metainfo
       - sed 's/NaviiView\.desktop/online.navii.naviiview.desktop/' online.navii.naviiview.metainfo.xml > /app/share/metainfo/online.navii.naviiview.metainfo.xml
+      - install -Dm644 fonts-local.conf /app/etc/fonts/local.conf
