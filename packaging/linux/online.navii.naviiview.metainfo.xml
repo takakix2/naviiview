@@ -81,6 +81,13 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="1.1.5" date="2026-11-01">
+      <url>https://github.com/takakix2/naviiview/releases/tag/v1.1.5</url>
+      <description>
+        <p>Gamepad: Joy-Con (R) support with a sideways / upright grip setting, two pads at once no longer double-press, and a released stick no longer springs back the other way. The shelf stays when you open a book, so Back returns to it. Server names are optional. History rows keep their height in a long list.</p>
+        <p xml:lang="ja">ゲームパッド: Joy-Con (R) に対応（横持ち / 縦持ちを設定で）・2 台つないでも連打しない・スティックを離したときの逆戻りを無視。本棚から本を開いても本棚が残り、戻るで帰れる。接続先の名前は省略できる。読書履歴が長くても行の高さが崩れない。</p>
+      </description>
+    </release>
     <release version="1.1.3" date="2026-10-30">
       <url>https://github.com/takakix2/naviiview/releases/tag/v1.1.3</url>
       <description>
