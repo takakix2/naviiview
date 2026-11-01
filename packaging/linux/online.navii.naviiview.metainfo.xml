@@ -81,6 +81,13 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="1.1.6" date="2026-11-01">
+      <url>https://github.com/takakix2/naviiview/releases/tag/v1.1.6</url>
+      <description>
+        <p>The screen stays on during a slideshow. Pages and books on a NAS are read again when the network drops for a moment (for example right after the screen comes back on), so a page no longer comes up empty.</p>
+        <p xml:lang="ja">スライドショーの間は画面を消さない。NAS の接続が一瞬切れても（画面が点いた直後など）読み直すので、ページが空のまま出ない。</p>
+      </description>
+    </release>
     <release version="1.1.5" date="2026-11-01">
       <url>https://github.com/takakix2/naviiview/releases/tag/v1.1.5</url>
       <description>
