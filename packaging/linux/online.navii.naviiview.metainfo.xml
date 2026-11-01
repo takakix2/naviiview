@@ -81,6 +81,13 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="1.1.7" date="2026-11-01">
+      <url>https://github.com/takakix2/naviiview/releases/tag/v1.1.7</url>
+      <description>
+        <p>Joy-Con (R): the stick now works in the Flatpak, and the buttons follow the same layout as on Windows (by place held sideways, by label held upright). The Joy-Con's motion sensor is no longer taken for a gamepad. In the history, only the selected row is highlighted.</p>
+        <p xml:lang="ja">Joy-Con (R): Flatpak でスティックが効くように。ボタンの並びを Windows とそろえた（横持ちは位置どおり・縦持ちは刻印どおり）。Joy-Con の傾きのセンサーをゲームパッドとして読まない。読書履歴は選んだ行だけを目立たせる。</p>
+      </description>
+    </release>
     <release version="1.1.6" date="2026-11-01">
       <url>https://github.com/takakix2/naviiview/releases/tag/v1.1.6</url>
       <description>
