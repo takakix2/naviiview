@@ -81,6 +81,13 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="1.1.8" date="2026-11-07">
+      <url>https://github.com/takakix2/naviiview/releases/tag/v1.1.8</url>
+      <description>
+        <p>Settings are split into tabs. Settings › Image sets the brightness and contrast of every book (books adjusted while reading keep their own). When a connection fails, the reason is explained in plain words. In the explorer, "Add to shelf" appears right away for books. Every history row has buttons to add the book to the shelf and to remove it.</p>
+        <p xml:lang="ja">設定をタブに分けた。設定の「画質」で全部の本の明るさとコントラストを変えられる（本ごとに変えた本はそちらが優先）。接続できないときは理由がわかる文で出す。エクスプローラーで本なら「本棚に入れる」をすぐ出す。履歴のどの行にも本棚に入れるボタンと削除ボタン。</p>
+      </description>
+    </release>
     <release version="1.1.7" date="2026-11-01">
       <url>https://github.com/takakix2/naviiview/releases/tag/v1.1.7</url>
       <description>
