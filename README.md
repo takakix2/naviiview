@@ -33,7 +33,7 @@ NaviiView reads comics and image books in two-page spreads. Open PDF, zip, rar, 
 | **Linux** (x86_64) | [GitHub Releases](https://github.com/takakix2/naviiview/releases/latest) — `.AppImage`, `.deb`, `.rpm` | **Free** |
 | **iPhone / iPad / Mac** | [App Store](https://apps.apple.com/app/id6824969523) | One purchase for all three |
 | **Android** | Google Play | Coming |
-| **Windows** | Microsoft Store | Coming |
+| **Windows** | [Microsoft Store](https://apps.microsoft.com/detail/9NRNNJMTZTZB) | 7-day free trial, then one purchase |
 
 Linux: Ubuntu 22.04 or later (glibc 2.34+, WebKitGTK 4.1). Flathub and AUR packages are being prepared; the files are under `packaging/linux/`.
 
@@ -95,7 +95,7 @@ NaviiView は、漫画や画像の本を見開きで読むためのコミック�
 | **Linux**（x86_64） | [GitHub Releases](https://github.com/takakix2/naviiview/releases/latest) — `.AppImage`・`.deb`・`.rpm` | **無料** |
 | **iPhone / iPad / Mac** | [App Store](https://apps.apple.com/app/id6824969523) | 1 回の購入で 3 つとも |
 | **Android** | Google Play | 準備中 |
-| **Windows** | Microsoft Store | 準備中 |
+| **Windows** | [Microsoft Store](https://apps.microsoft.com/detail/9NRNNJMTZTZB) | 7 日間無料・その後 1 回の購入 |
 
 Linux は Ubuntu 22.04 以降（glibc 2.34 以上・WebKitGTK 4.1）。Flathub と AUR は準備中で、定義は `packaging/linux/` にあります。
 
