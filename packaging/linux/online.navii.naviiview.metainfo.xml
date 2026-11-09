@@ -81,6 +81,13 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="1.1.9" date="2026-11-10">
+      <url>https://github.com/takakix2/naviiview/releases/tag/v1.1.9</url>
+      <description>
+        <p>Pages fill the height of the screen, so smaller scans no longer leave gaps above and below, in full screen too. AVIF images open faster. The AppImage now updates itself from the settings when a new version is out (other packages are pointed to the website). Settings › App lists the open source licenses.</p>
+        <p xml:lang="ja">小さな画像のページも画面の高さいっぱいに表示するようにした（全画面で上下に隙間が出ない）。AVIF の画像を速く開く。AppImage 版は、新しい版が出たら設定から更新できる（他のパッケージはサイトへ案内する）。設定 › アプリ に「オープンソースライセンス」。</p>
+      </description>
+    </release>
     <release version="1.1.8" date="2026-11-07">
       <url>https://github.com/takakix2/naviiview/releases/tag/v1.1.8</url>
       <description>
