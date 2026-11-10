@@ -81,6 +81,13 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="1.1.10" date="2026-11-10">
+      <url>https://github.com/takakix2/naviiview/releases/tag/v1.1.10</url>
+      <description>
+        <p>When the network drops while reading from an SMB share (after sleep, or switching Wi-Fi), reading no longer stalls, and the next page reads again once the network is back. The Joy-Con (R) stick now works in the AppImage and the .deb. The AppImage closes cleanly when the session ends.</p>
+        <p xml:lang="ja">SMB の本を読んでいる途中でネットワークが途切れても（スリープ明け・Wi-Fi の切り替え）、読み込みが止まったままにならず、戻れば次のページから読めるようにした。AppImage・.deb でも Joy-Con (R) のスティックが効く。ログアウトなどで AppImage がきれいに終わるようにした。</p>
+      </description>
+    </release>
     <release version="1.1.9" date="2026-11-10">
       <url>https://github.com/takakix2/naviiview/releases/tag/v1.1.9</url>
       <description>
