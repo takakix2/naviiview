@@ -81,6 +81,13 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="1.1.13" date="2026-11-11">
+      <url>https://github.com/takakix2/naviiview/releases/tag/v1.1.13</url>
+      <description>
+        <p>Large images and files on an SMB share open instead of never finishing loading.</p>
+        <p xml:lang="ja">SMB の上の大きい画像やファイルが、読み込みが終わらないままにならず開けるようにした。</p>
+      </description>
+    </release>
     <release version="1.1.12" date="2026-11-11">
       <url>https://github.com/takakix2/naviiview/releases/tag/v1.1.12</url>
       <description>
