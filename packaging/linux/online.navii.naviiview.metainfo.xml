@@ -81,6 +81,12 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="1.1.16" date="2026-11-21">
+      <url>https://github.com/takakix2/naviiview/releases/tag/v1.1.16</url>
+      <description>
+        <p>The buttons at the bottom of the reading screen are larger and easier to click (open another file from Open on the home screen). The bars above and below the page now leave the same gap on both sides. Minor fixes.</p>
+      </description>
+    </release>
     <release version="1.1.13" date="2026-11-11">
       <url>https://github.com/takakix2/naviiview/releases/tag/v1.1.13</url>
       <description>
