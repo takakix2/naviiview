@@ -81,6 +81,12 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="1.1.17" date="2026-11-21">
+      <url>https://github.com/takakix2/naviiview/releases/tag/v1.1.17</url>
+      <description>
+        <p>The bars and the seek bar are hidden while Settings is open, so they no longer overlap the settings panel in a short window.</p>
+      </description>
+    </release>
     <release version="1.1.16" date="2026-11-21">
       <url>https://github.com/takakix2/naviiview/releases/tag/v1.1.16</url>
       <description>
