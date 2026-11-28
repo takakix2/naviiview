@@ -81,6 +81,12 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="1.1.18" date="2026-11-28">
+      <url>https://github.com/takakix2/naviiview/releases/tag/v1.1.18</url>
+      <description>
+        <p>The back and home buttons are now a single home button. While reading, a resting mouse cursor is hidden and no more tooltips appear over the page.</p>
+      </description>
+    </release>
     <release version="1.1.17" date="2026-11-21">
       <url>https://github.com/takakix2/naviiview/releases/tag/v1.1.17</url>
       <description>
